@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'microsoft/dotnet-samples:dotnetapp-nanoserver-sac2016'
+  vmImage: 'mcr.microsoft.com/windows/nanoserver:10.0.14393.1066'
 
 variables:
   solution: '**/*.sln'
