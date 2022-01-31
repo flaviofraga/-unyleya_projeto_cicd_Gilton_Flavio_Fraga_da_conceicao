@@ -8,7 +8,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'mcr.microsoft.com/windows/nanoserver:10.0.14393.1066'
+  vmImage: 'mcr.microsoft.com/windows/servercore:1803'
 
 # Command line
 # Run a command line script using Bash on Linux and macOS and cmd.exe on Windows
